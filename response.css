@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    .ifoActi {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .imgAct,
+    .imgAtt,
+    .imgDrea {
+        width: 33vw;
+        height: 20vh;
+    }
+    body::before , body{
+        width: 100vw;
+    }
+    .contPeople{
+        flex-direction: column;
+    }
+    .hexagon{
+        width: 45vw;
+    }
+    #textact{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    h2{
+        margin-top: 2vh;
+    }
+    
+}

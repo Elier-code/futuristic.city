@@ -26,7 +26,7 @@ body::before {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    font-size: 4vh;
+    font-size: 2vw;
     margin-bottom: 3px;
 }
 
@@ -49,7 +49,7 @@ h1 {
 
 h1,
 b {
-    font-size: 15vh;
+    font-size: 8vw;
     align-items: center;
     justify-content: center;
     text-shadow: 3px 3px 8px #00ddff;
@@ -57,7 +57,7 @@ b {
 
 .about_us {
     text-align: center;
-    font-size: 4vh;
+    font-size: 2vw;
 
     height: 50vh;
 }
@@ -72,7 +72,7 @@ h2,#textDrea {
 .imgAct,
 .imgAtt , .imgDrea {
     height: 30vh;
-    width: 30vh;
+    width: 15vw;
     border-radius: 50%;
     border: 8px solid #394774;
 }
@@ -84,8 +84,11 @@ h2,#textDrea {
 }
 
 .ifoActi>p {
-    font-size: 3vh;
+    font-size: 1.5vw;
     width: 50%;
+}
+#textact{
+    margin-top: 9vh;
 }
 
 .contPeople {
@@ -146,7 +149,7 @@ h2,#textDrea {
 
 .imgAtt , .imgDrea {
     height: 40vh;
-    width: 40vh;
+    width: 21vw;
     border-color: #d4d1d1b3;
 }
 
