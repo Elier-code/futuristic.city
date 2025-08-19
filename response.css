@@ -27,5 +27,17 @@
     h2{
         margin-top: 2vh;
     }
-    
+    .about_us{
+        height: 50vh;
+    }
+    .contPeople{
+        justify-content: center;
+        align-items: center;
+    }
+    .contPeople>* {
+        width: 90%;
+    }
+    #torre{
+        flex-direction: column-reverse;
+    }
 }
