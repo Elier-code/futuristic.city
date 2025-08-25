@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
 
 function revealOnScroll() {
     const reveals = document.querySelectorAll('.reveal');
-
+    
     for (let i = 0; i < reveals.length; i++) {
         const windowHeight = window.innerHeight;
         const elementTop = reveals[i].getBoundingClientRect().top;
@@ -14,14 +14,16 @@ function revealOnScroll() {
 
         if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
+            
         } else {
             reveals[i].classList.remove("active");
         }
     }
-    
+
 }
 
 window.addEventListener("scroll", revealOnScroll);
 
 // ejecuta una vez al cargar
 revealOnScroll();
+

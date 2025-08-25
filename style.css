@@ -3,7 +3,6 @@ body {
 
     color: #ffffff;
     position: relative;
-    /* necesario para que el ::before se posicione relativo al body */
 }
 
 body::before {
@@ -67,7 +66,6 @@ b {
 h2,
 #textDrea {
     background: linear-gradient(90deg, rgba(7, 17, 33, 0.215), #4f5661, rgba(6, 15, 31, 0.308));
-    ;
     margin-top: 0;
     text-transform: uppercase;
 }
